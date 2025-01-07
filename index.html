@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Alime.</div>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li class="dropdown">
+            <a href="#page">Pages <span class="arrow-down">▼</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#blog-details">Blog Details</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#dropdown">Dropdown</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <!-- Slider Container -->
+      <div class="slider-container">
+        <!-- Slide 1 -->
+        <div
+          class="slide active"
+          style="background-image: url('assets/image1.webp')"
+        >
+          <div class="hero-content">
+            <h1>
+              Hello <br />
+              I'm Jackson
+            </h1>
+            <p>
+              I photograph very instinctively. I see how it is taken like that.
+              <br />
+              I do not follow certain styles, philosophies, or teachers.
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn">Get A Quote</a>
+              <a href="mailto:hello.alime@gmail.com" class="email-link"
+                >hello.alime@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('assets/2.jpg')">
+          <div class="hero-content">
+            <h1>Welcome to My World</h1>
+            <p>
+              Capturing emotions through the lens. Let me help <br />you tell
+              your story through timeless images.
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn">View My Work</a>
+              <a href="mailto:hello.alime@gmail.com" class="email-link"
+                >hello.alime@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transparent Arrows -->
+      <div class="arrow left-arrow">&lt;</div>
+      <div class="arrow right-arrow">&gt;</div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="gallery-container">
+        <!-- Gallery Heading -->
+        <h2 class="gallery-heading">Our Gallery</h2>
+
+        <!-- Filter Menu -->
+        <div class="filter-menu">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="human">Human</button>
+          <button class="filter-btn" data-category="nature">Nature</button>
+          <button class="filter-btn" data-category="country">Country</button>
+          <button class="filter-btn" data-category="video">Video</button>
+        </div>
+      </div>
+
+      <!-- Gallery-grid -->
+      <div class="gallery-container">
+        <div class="gallery-grid">
+          <div class="gallery-item" data-category="human">
+            <img src="assets/3.jpg.webp" alt="Human" />
+          </div>
+          <div class="gallery-item" data-category="nature">
+            <img src="assets/36.jpg.webp" alt="Nature" />
+          </div>
+          <div class="gallery-item" data-category="country">
+            <img src="assets/37.jpg.webp" alt="Country" />
+          </div>
+          <div class="gallery-item" data-category="video">
+            <img src="assets/10.jpg.webp" alt="Video" />
+          </div>
+          <div class="gallery-item" data-category="human">
+            <img src="assets/9.jpg.webp" alt="Human" />
+          </div>
+          <div class="gallery-item" data-category="human">
+            <img src="assets/4.jpg.webp" alt="Human" />
+          </div>
+          <div class="gallery-item" data-category="nature">
+            <img src="assets/5.jpg.webp" alt="Nature" />
+          </div>
+          <div class="gallery-item" data-category="country">
+            <img src="assets/6.jpg.webp" alt="Country" />
+          </div>
+          <div class="gallery-item" data-category="country">
+            <img src="assets/7.jpg.webp" alt="Country" />
+          </div>
+          <div class="gallery-item" data-category="country">
+            <img src="assets/8.jpg.webp" alt="Country" />
+          </div>
+          <div class="gallery-item" data-category="country">
+            <img src="assets/5.jpg.webp" alt="Country" />
+          </div>
+        </div>
+      </div>
+
+      <!-- "View More" Button -->
+      <div class="heroes">
+        <a href="#" class="btn">View More</a>
+      </div>
+    </section>
+
+    <section class="instagram-section">
+      <div class="instagram-header">
+        <h2>Follow Instagram</h2>
+        <p>@Alime_photographer</p>
+      </div>
+      <div class="instagram-gallery">
+        <div class="instagram-container">
+          <img src="assets/9.jpg.webp" alt="Instagram Photo 1" />
+        </div>
+        <div class="instagram-container">
+          <img src="assets/4.jpg.webp" alt="Instagram Photo 2" />
+        </div>
+        <div class="instagram-container">
+          <img src="assets/36.jpg.webp" alt="Instagram Photo 3" />
+        </div>
+        <div class="instagram-container">
+          <img src="assets/6.jpg.webp" alt="Instagram Photo 4" />
+        </div>
+        <div class="instagram-container">
+          <img src="assets/7.jpg.webp" alt="Instagram Photo 5" />
+        </div>
+        <div class="instagram-container">
+          <img src="assets/8.jpg.webp" alt="Instagram Photo 6" />
+        </div>
+      </div>
+      <footer class="footer">
+        <p>
+          Copyright ©2025 All rights reserved | This template is made with ❤️ by
+          <a href="https://colorlib.com">Colorlib</a>
+        </p>
+        <div class="footer-brand">
+          <span>Alime.</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
